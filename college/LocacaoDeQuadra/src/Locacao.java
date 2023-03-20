@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 public class Locacao {
     private Locatario locatario;
     private Quadra quadra;
     private int tempoMinuto;
     private char necessitaEquipamento;
-
+    private Scanner scan = new Scanner(System.in);
+    
 
     public Locatario getLocatario() {
         return this.locatario;
@@ -37,5 +40,17 @@ public class Locacao {
         this.necessitaEquipamento = necessitaEquipamento;
     }
 
-    
+    public double calcularLocacao(){
+         return 0;
+    }
+
+    public void mostrarResumoLocacao(){
+
+    }
+
+    public void cadastrarLocacao(){
+        
+        System.out.println("");
+
+    }
 }
