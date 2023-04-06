@@ -1,4 +1,7 @@
+
 import java.util.Scanner;
+
+
 
 public class Challenge_II {
     public static void main(String[] args){
@@ -9,13 +12,12 @@ public class Challenge_II {
         ClienteUrbano urbano = new ClienteUrbano();
         Scanner scan = new Scanner(System.in);
 
-
-
         System.out.println("onde você mora:\n1 - Rural\n2 - Urbano");
-        int aux = scan.nextInt();
 
-
-
+        
+            int aux = scan.nextInt();
+       
+        
 
         if(aux == 1){
             cliente = rural;
@@ -45,7 +47,6 @@ public class Challenge_II {
         
         
     }
-
     public static void mostrarInformacoes(Cliente cliente){
         System.out.println("nome: "+cliente.getNome());
         System.out.println("endereço: "+cliente.getEndereco());
