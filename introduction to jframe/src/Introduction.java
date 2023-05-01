@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 import javax.swing.JFrame;
 
 public class Introduction {
@@ -11,6 +13,7 @@ public class Introduction {
 		screen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		screen.setTitle("jframe intoduction");
 		
+		screen.getContentPane().setBackground(Color.pink);
 		
 		
 		
