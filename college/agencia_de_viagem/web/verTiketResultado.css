@@ -63,7 +63,7 @@ p{
     
     height: 100%;
     width: 15rem;
-    background-image: url(imagem/interior-do-onibus.jpg);
+    background-image: url('imagem/interior-do-onibus.jpg');
     background-size: cover;
 }
 button{
