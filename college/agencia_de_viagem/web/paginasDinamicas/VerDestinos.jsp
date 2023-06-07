@@ -11,8 +11,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link rel="stylesheet" href="styles/verDestinos.css">
     </head>
     <body>
+        <header>
+            <h1>Confira nossos destinos</h1>
+        </header>
         <table>
             <thead>
 
@@ -44,7 +48,7 @@
 
     </table>
     <a href="index.html">
-        <button>Home</button>
+        <button id="button">Home</button>
     </a>
 </body>
 </html>

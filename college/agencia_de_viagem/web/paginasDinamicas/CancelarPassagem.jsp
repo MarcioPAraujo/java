@@ -11,14 +11,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link rel="stylesheet" href="styles/atualizarPassagem.css">
     </head>
     <body>
         <header>
 
         </header>
         <main>
-            <form action="CancelarPassagem">
-                <fieldset>
+            <form action="CancelarPassagem" class="container">
+                <fieldset class="dados">
                     <h2>Sentimos por não querer mais viajar</h2>
                     <div>
                         <label for = "id_passageiro">CPF</label>
@@ -45,7 +46,7 @@
                     </div>
                 </fieldset>
                 <div>
-                    <input type ="submit" value ="Cancelar">
+                    <input type ="submit" value ="Cancelar" id="button">
                 </div>
             </form>
         </main>
