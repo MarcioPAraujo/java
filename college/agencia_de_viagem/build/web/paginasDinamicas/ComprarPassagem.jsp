@@ -11,13 +11,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link rel="stylesheet" href="styles/comprarPassagem.css">
     </head>
     <body>
         <header>
 
         </header>
         <main>
-            <form action="ComprarPassagem">
+            <form action="ComprarPassagem" class="container">
                 <div>
                     <label for = "id_assento">
                         Escolha o Assento
@@ -63,7 +64,7 @@
                     </select>
                 </div>
                 <div>
-                    <input type="submit" value="Comprar">
+                    <input type="submit" value="Comprar" id="button">
                 </div>
             </form>
         </main>

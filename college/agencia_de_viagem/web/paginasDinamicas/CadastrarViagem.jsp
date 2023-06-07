@@ -10,13 +10,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link rel="stylesheet" href="styles/cadastrodapassagem.css">
     </head>
     <body>
-         <header>
-
+        <header>
+            <h1>
+                Cadastrar novo destino
+            </h1>
         </header>
         <main>
-            <form action = "CadastrarViagem">
+            <form action = "CadastrarViagem" class="container">
                 <div>
                     <label for = "id_linha">
                         linha do ônibus
@@ -48,7 +51,7 @@
                     <input type = "number" name ="preco"id = "id_preco" placeholder= "Digite o preço" step="1" min="0"> 
                 </div>
                 <div>
-                    <input type ="submit" value ="Cadastrar">
+                    <input type ="submit" value ="Cadastrar" id="button">
                 </div>
             </form>
         </main>
