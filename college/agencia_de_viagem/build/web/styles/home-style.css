@@ -117,7 +117,7 @@ div.images{
 
     
 
-    background-image: url('imagem/itens-de-viagem.jpg');
+    background-image: url('../imagem/itens-de-viagem.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px 0px 0px 15px;

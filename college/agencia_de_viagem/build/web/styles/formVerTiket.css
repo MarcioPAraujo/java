@@ -1,0 +1,100 @@
+@charset "UTF-8";
+:root{
+    --background:hsl(44, 100%, 56%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,main{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    margin: 2rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    height: 15rem;
+    width: 100%;
+    padding: 1rem;
+
+    
+    border-radius: 1rem;
+    
+}
+
+#dados{
+    border: 2px solid orange;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    
+    width: 100%;
+
+    height: 12rem;
+    
+    padding: 1rem;
+
+    
+    border-radius: 1rem;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+
+    
+}
+
+label{
+  color: darkorange;
+  font-weight: bold;
+}
+input, select{
+    border-radius: 0.3rem;
+    border: 1px solid orange;
+    
+    text-align: center;
+}
+
+#divbutton{
+    align-self: center;
+}
+
+#button{
+     
+    width: 6rem;
+    padding: 0.5rem;
+    
+    border: none;
+    border-radius:1rem;
+
+    color: white;
+    background-color: orange;
+}
+#button:hover{
+    box-shadow: 0px 0px 6px darkgray;
+    background-color: var(--background)
+}
